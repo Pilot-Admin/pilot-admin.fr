@@ -3,185 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pilot-Admin | Gestion administrative • Excel VBA • Outils de gestion</title>
+<title>Pilot-Admin | Gestion administrative & Excel VBA</title>
 
-<style>
+<link rel="stylesheet" href="css/style.css">
 
-body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#08111f;
-color:white;
-}
-
-header{
-background:#08111f;
-padding:20px;
-text-align:center;
-border-bottom:2px solid #d8a437;
-}
-
-.logo{
-max-width:350px;
-width:90%;
-}
-
-.hero{
-padding:60px 20px;
-text-align:center;
-}
-
-.hero h1{
-font-size:50px;
-margin-bottom:20px;
-color:#d8a437;
-}
-
-.hero p{
-font-size:22px;
-max-width:900px;
-margin:auto;
-line-height:1.6;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 30px;
-background:#d8a437;
-color:#08111f;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-}
-
-.section{
-padding:60px 20px;
-max-width:1200px;
-margin:auto;
-}
-
-.section h2{
-text-align:center;
-color:#d8a437;
-margin-bottom:40px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#102038;
-padding:25px;
-border:1px solid #d8a437;
-border-radius:10px;
-}
-
-.card h3{
-color:#d8a437;
-}
-
-.contact{
-text-align:center;
-font-size:22px;
-line-height:2;
-}
-
-footer{
-text-align:center;
-padding:30px;
-border-top:2px solid #d8a437;
-margin-top:40px;
-}
-
-</style>
 </head>
 
 <body>
 
 <header>
-<h1>Pilot-Admin</h1>
-<p>Gestion administrative • Excel VBA • Outils de gestion</p>
+    <div class="container nav">
+        <img src="images/logo.png" alt="Pilot-Admin" class="logo">
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#excel">Excel VBA</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
 </header>
 
-<section class="hero">
-<h1>Votre partenaire administratif à distance</h1>
+<section id="accueil" class="hero">
 
-<p>
-J'accompagne les entreprises, artisans, indépendants et professions libérales
-dans toute la France grâce à des prestations 100% à distance.
-</p>
+    <div class="container">
 
-<a href="mailto:contact@pilot-admin.fr" class="btn">Demander un devis</a>
+        <h1>Pilot-Admin</h1>
 
-</section>
+        <p>
+            Gestion administrative à distance • Excel VBA • Outils de gestion sur mesure
+        </p>
 
-<section class="section">
+        <div class="buttons">
+            <a href="#contact" class="btn">Demander un devis</a>
+        </div>
 
-<h2>Mes services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Gestion administrative</h3>
-<p>Organisation, suivi documentaire, courriers, e-mails et assistance quotidienne.</p>
-</div>
-
-<div class="card">
-<h3>Devis & Facturation</h3>
-<p>Création, suivi, relances clients et gestion administrative.</p>
-</div>
-
-<div class="card">
-<h3>Relances clients</h3>
-<p>Suivi des impayés et relances professionnelles.</p>
-</div>
-
-<div class="card">
-<h3>Excel & Reporting</h3>
-<p>Tableaux de bord, indicateurs et reporting personnalisés.</p>
-</div>
-
-<div class="card">
-<h3>Automatisation VBA</h3>
-<p>Création de macros et automatisation des tâches répétitives.</p>
-</div>
-
-<div class="card">
-<h3>Outils de gestion</h3>
-<p>Développement d'outils sur mesure adaptés à votre activité.</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section class="section">
+<section id="services">
 
-<h2>Contact</h2>
+    <div class="container">
 
-<div class="contact">
+        <h2>Services administratifs</h2>
 
-📞 06 58 85 68 80<br>
+        <div class="cards">
 
-📧 contact@pilot-admin.fr<br>
+            <div class="card">
+                <h3>Gestion administrative</h3>
+                <p>Traitement administratif complet pour TPE, PME et indépendants.</p>
+            </div>
 
-🌍 Intervention dans toute la France - 100% à distance
+            <div class="card">
+                <h3>Facturation</h3>
+                <p>Création, suivi et relance de devis et factures.</p>
+            </div>
 
-</div>
+            <div class="card">
+                <h3>Relances clients</h3>
+                <p>Suivi des règlements et relances professionnelles.</p>
+            </div>
+
+            <div class="card">
+                <h3>Gestion documentaire</h3>
+                <p>Classement numérique et suivi documentaire.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="excel">
+
+    <div class="container">
+
+        <h2>Excel VBA & Automatisation</h2>
+
+        <p class="center">
+            Création de tableaux de bord, automatisations VBA,
+            reporting, outils de gestion et solutions métiers sur mesure.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <div class="container">
+
+        <h2>Contact</h2>
+
+        <div class="contact-box">
+
+            <p><strong>Téléphone :</strong> 06 58 85 68 80</p>
+
+            <p><strong>Email :</strong> contact@pilot-admin.fr</p>
+
+            <p><strong>Zone d'intervention :</strong> France entière à distance</p>
+
+        </div>
+
+    </div>
 
 </section>
 
 <footer>
 
-Pilot-Admin<br>
+    <div class="container">
 
-SIRET : 881 713 788 00027<br>
+        <p>© Pilot-Admin - SIRET 88171378800027 - APE 8211Z</p>
 
-Code APE : 8211Z
+    </div>
 
 </footer>
 
